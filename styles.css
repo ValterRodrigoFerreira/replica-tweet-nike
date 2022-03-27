@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --text: #0f1419;
+  --owentext: #536471;
+  --icons-text: #3f3d56;
+  --border: #dadddf;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-tweet {
+  width: 591px;
+  height: 161px;
+  display: flex;
+  border: 1px solid var(--border);
+  box-sizing: border-box;
+}
+
+.image {
+  margin: 17px 12px 96px 17px;
+}
+
+.header {
+  display: flex;
+  margin-top: 17px;
+}
+
+h1 {
+  margin-right: 4px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.verify {
+  margin-right: 6px;
+}
+
+h2,
+.date {
+  margin-right: 5px;
+  color: var(--owentext);
+  font-weight: 100;
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  background: var(--icons-text);
+  display: block;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.main p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.margin {
+  margin-top: 38px;
+}
+
+.fotter {
+  margin-top: 15px;
+  display: flex;
+}
+
+.box {
+  margin-top: 5px;
+  margin-right: 73px;
+  padding-bottom: 19px;
+}
+
+small {
+  color: var(--owentext);
+  font-size: 13px;
+  padding: 10px;
+}
